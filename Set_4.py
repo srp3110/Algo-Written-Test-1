@@ -22,7 +22,7 @@
 # gender = str.upper(input("Enter your gender: M for Male and F for Female => "))
 # num_days = int(input("Enter number of days worked => "))
 
-# if age >= 18:
+# if age >= 18 and age < 30:
 #     if gender == "M":
 #         wage = 700*num_days
 #         print(f"Your wage is {wage}")
