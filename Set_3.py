@@ -7,21 +7,21 @@
 #OUTPUT Volume
 
 #(c)
-import math
-pi = math.pi
+# import math
+# pi = math.pi
 
-radius = int(input("Enter radius of sphere => "))
+# radius = int(input("Enter radius of sphere => "))
 
-def calc(radius):
-    SA = 4*pi*radius**2
-    V = (4/3)*pi*radius**3
-    return (SA, V)
+# def calc(radius):
+#     SA = 4*pi*radius**2
+#     V = (4/3)*pi*radius**3
+#     return (SA, V)
 
-SA, V = calc(radius)
-print(f'''
-Surface Area is : {SA}
-Volume is : {V}
-''')
+# SA, V = calc(radius)
+# print(f'''
+# Surface Area is : {SA}
+# Volume is : {V}
+# ''')
 # print(f'''
 # Surface Area is : {calc(radius)[0]}
 # Volume is : {calc(radius)[1]}
